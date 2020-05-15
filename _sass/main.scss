@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+$dark-grey: #343a40;
+$footer-background-color: $dark-grey;
+$navbar-background-color: $dark-grey;
+$footer-padding-custom: 2rem 1.5rem 0rem;
+$footer-padding: $footer-padding-custom;
+$column-padding-custom: 0.5rem;
+$column-padding: $column-padding-custom;
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+
+@font-face {
+  font-family: "MalgunGothicRegular";
+  src: url("../fonts/Malgun-Gothic29381.woff2") format("woff2"),
+  url("../fonts/Malgun-Gothic29381.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "MalgunGothicRegular", "Helvetica", sans-serif;
+}
+
+.min-h {
+  min-height: 90vh;
+}
+
+.mr-2 {
+  margin-right: 5px;
+}
+
+.main-login {
+  position: fixed;
+  top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 2.2rem;
+}
+
+.fa-lock {
+  width: 16px;
+  height: 16px;
+}
+
+.form-control {
+  $code-padding: 0.5em;
+}
+
+@import "../node_modules/bulma/bulma";
