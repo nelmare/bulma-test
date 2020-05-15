@@ -46,6 +46,21 @@ $primary-invert: $pink-invert;
   width: 16px;
   height: 16px; }
 
+.restore-button {
+  margin-top: -15px; }
+
+@media (min-width: 768px) {
+  .restore-button {
+    margin-top: 0; } }
+
+@media (min-width: 580px) {
+  .main-login {
+    max-width: 50%; } }
+
+@media (min-width: 1042px) {
+  .main-login {
+    max-width: 40%; } }
+
 /*! bulma.io v0.8.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
