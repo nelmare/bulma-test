@@ -7,6 +7,7 @@ $footer-padding-custom: 2rem 1.5rem 0rem;
 $footer-padding: $footer-padding-custom;
 $column-padding-custom: 0.5rem;
 $column-padding: $column-padding-custom;
+$family-sans-serif: "MalgunGothicRegular", "Helvetica", sans-serif;
 // Customization
 
 // You can easily customize Bulma with your own variables.
@@ -40,10 +41,6 @@ $primary-invert: $pink-invert;
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
-
-body {
-  font-family: "MalgunGothicRegular", "Helvetica", sans-serif;
 }
 
 .min-h {
